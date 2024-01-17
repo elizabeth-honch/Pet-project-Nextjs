@@ -1,0 +1,60 @@
+.info {
+  display: flex;
+  gap: 30px;
+}
+
+.form {
+  width: calc(100% - 415px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formItem input {
+  height: 24px;
+  border: none;
+  outline: none;
+}
+
+.formItem label {
+  color: #43766C;
+}
+
+.formItem textarea {
+  height: 100px;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.dNone {
+  display: none;
+}
+
+.previewBlock {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.emptyPreview {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.formBlock {
+  display: flex;
+  justify-content: flex-end;
+}

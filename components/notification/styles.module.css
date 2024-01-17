@@ -1,0 +1,23 @@
+.notification {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.pending {
+  background: #7BD3EA;
+}
+
+.success {
+  background: #C3E2C2;
+}
+
+.error {
+  background: #CD8D7A;
+}

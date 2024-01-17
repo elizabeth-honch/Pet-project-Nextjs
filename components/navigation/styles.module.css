@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  height: 50px;
+  line-height: 50px;
+  gap: 20px;
+  margin: 0;
+  padding: 0 20px;
+  background: #638889;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #EBD9B4;
+  transition: 0.4s all;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rightPosition {
+  width: 100%;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  color: #F9EFDB;
+}

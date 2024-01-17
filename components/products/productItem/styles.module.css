@@ -1,0 +1,17 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  color: #43766C;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.link {
+  padding: 0 5px;
+  color: #43766C;
+  text-decoration: none;
+  border: 1px solid #43766C;
+  cursor: pointer;
+}

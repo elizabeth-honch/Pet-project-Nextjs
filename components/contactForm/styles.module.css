@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #638889;
+  padding: 20px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(50% - 10px);
+}
+
+.formItem input {
+  height: 24px;
+}
+
+.formItem label {
+  font-size: 18px;
+  color: #C6CF9B;
+}
+
+.formTextarea {
+  width: 100%;
+}
+
+.formTextarea textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.formBlock {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
